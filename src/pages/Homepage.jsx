@@ -3,7 +3,7 @@ import data from "../helper/data";
 
 const Homepage = () => {
   return (
-    <div className="App">
+    <div className="home-container">
       <h1 className="">Image Galery</h1>
       <div className="container">
         {data.map((data) => {
@@ -14,5 +14,4 @@ const Homepage = () => {
     </div>
   );
 };
-
 export default Homepage;
