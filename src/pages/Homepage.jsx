@@ -4,7 +4,7 @@ import data from "../helper/data";
 const Homepage = () => {
   return (
     <div className="home-container">
-      <h1 className="">Image Galery</h1>
+      <h1 className="">Image Gallery</h1>
       <div className="container">
         {data.map((data) => {
           const { photographer, src } = data;
